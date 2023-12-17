@@ -116,7 +116,7 @@
 <style>
 :root {
   --default-font: 'Commissioner', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
-  --accent-font: 'Play', 'Commissioner', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
+  --accent-font: 'Fredoka', 'Commissioner', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Open Sans, Helvetica Neue, sans-serif;
 
   --size-default: 16px;
 
@@ -137,12 +137,18 @@
 
   --padding-card: var(--spacing-md) var(--spacing-1xl) var(--spacing-nm) var(--spacing-1xl);
 
+  --rounding-card: 0.75rem;
+  --rounding-button: 0.5rem;
+
   --color-background:               hsl(210, 21%, 11%);
   --color-background-accent:        hsl(219, 13%, 20%);
   --color-background-card:          hsl(219, 13%, 14%);
   --color-text:                     hsl(221, 18%, 82%);
   --color-text-on-accent:           hsl(221, 18%, 75%);
   --color-link-tint:                hsla(217, 100%, 73%, 80%);
+
+  --box-shadow-card: 0 3px 0 0 hsla(0, 0%, 0%, 75%);
+  --box-shadow-button: 0 3px 0 0 hsla(210, 21%, 5%, 75%);
 }
 
 html,
@@ -172,6 +178,8 @@ code {
 
 .card {
     background-color: var(--color-background-card);
+    border-radius: var(--rounding-card);
+    box-shadow: var(--box-shadow-card);
     padding: var(--padding-card);
 }
 
@@ -236,6 +244,9 @@ code {
 }
 
 .banner {
+    border-radius: var(--rounding-card);
+    box-shadow: var(--box-shadow-card);
+
     width: 60rem;
     margin: 0 auto;
 

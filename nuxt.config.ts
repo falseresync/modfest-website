@@ -2,12 +2,12 @@
 
 export default defineNuxtConfig({
   app: {
-    baseURL: '/modfest-website/',
+    // baseURL: '/modfest-website/',
     head: {
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
         { rel: "preconnect", href: "https://fonts.gstatic.com", crossorigin: "" },
-        { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&family=Play:wght@700&display=swap" },
+        { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Commissioner:wght@400;700&family=Fredoka:wght@600&display=swap" },
       ],
     },
   },

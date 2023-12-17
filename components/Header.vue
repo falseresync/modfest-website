@@ -92,6 +92,7 @@
 
 .nav__item,
 .socials__item {
+    border-radius: var(--rounding-button);
     color: var(--color-text);
     text-decoration: none;
     font-family: var(--accent-font);
@@ -106,9 +107,10 @@
 .socials__item:hover,
 .socials__item:focus  {
     background-color: var(--color-background-accent);
+    box-shadow: var(--box-shadow-button);
     
     /* transform: scale(1.0125); */
-    transition: background-color 0.25s ease-in-out;
+    transition: background-color 0.25s ease-in-out, box-shadow 0.25s ease-in-out;
 }
 
 .socials-item {
