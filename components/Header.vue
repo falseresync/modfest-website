@@ -87,6 +87,7 @@
     margin: 0;
 
     display: flex;
+    gap: var(--spacing-xs)
 }
 
 .nav__item,
