@@ -8,7 +8,7 @@
             </h2>
             <div class="section-details__content">
                 <div class="section-details__theme card">
-                    For ModFest 1.20, we encourage your mod to follow our central theme:
+                    We encourage you your mod to follow our central theme:
                     <p class="detail-highlight">
                         <NuxtIcon name="moon-stars" class="detail-highlight__icon" />
                         <span class="detail-highlight__text">Sky and Sea</span>   
@@ -16,7 +16,7 @@
                     </p>
                 </div>
                 <div class="section-details__timing card">                    
-                    ModFest 1.20 is a Minecraft modding event in 2023 that will be held between                  
+                    The ModFest 1.20 event will be held in the very end of 2023 between:              
                     <p class="detail-highlight">
                         <NuxtIcon name="clock" class="detail-highlight__icon" />
                         <span class="detail-highlight__text">Monday, December 18th</span>   
@@ -102,6 +102,15 @@
             </div>
         </section>
     </main>
+    <footer class="container footer">
+        <p>ModFest! (ﾉ◕ヮ◕)ﾉ*:･ﾟ✧</p>
+        <p>
+            Website by
+            <a href="https://github.com/falseresync">falseresync</a>
+            &
+            <a href="https://github.com/ModFest">the ModFest team</a>
+        </p>
+    </footer>
 </template>
 
 <style>
@@ -253,7 +262,7 @@ code {
 .section-details__content {
     max-width: 80%;
     display: flex;
-    align-items: start;
+    align-items: flex-start;
     gap: var(--spacing-nm);
 }
 
@@ -268,7 +277,7 @@ code {
     margin: var(--spacing-xs) 0;
 
     display: flex;
-    align-items: first baseline;
+    align-items: center;
     gap: var(--spacing-xs);
 }
 
@@ -313,5 +322,18 @@ code {
 
     font-size: var(--size-md);
     line-height: var(--size-1xl);
+}
+
+.footer {
+    padding: var(--spacing-1xl);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-nm);
+}
+
+.footer > p {
+    margin: 0;
 }
 </style>
