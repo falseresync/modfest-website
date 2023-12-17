@@ -2,7 +2,7 @@
 
 export default defineNuxtConfig({
   app: {
-    // baseURL: '/modfest-website/',
+    baseURL: '/modfest-website/',
     head: {
       link: [
         { rel: "preconnect", href: "https://fonts.googleapis.com" },
