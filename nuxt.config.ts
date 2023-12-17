@@ -17,5 +17,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     'nuxt-icons',
   ],
+  nitro: {
+    preset: "github-pages"
+  },
   devtools: { enabled: true },
 })
